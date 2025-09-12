@@ -9,7 +9,7 @@ kwh= int(input("Enter the KW hours used:"))
 if  kwh <= 1000:
     amount = kwh * 0.07633
     print(f"Amount owed is ${amount}")
-#Else pring
+#Else print multiply kwh amount entered by 0.07633 plus(+) the result of kwh minus 1000, multiplied by 0.09259
 else:
     amount = 1000 * 0.07633 + (kwh - 1000) * 0.09259
     print(f"Amount owed is ${amount}")
